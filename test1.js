@@ -40,4 +40,12 @@ let result = num1/num2;
 console.log(`result: ${result} `);
 
 let array = [num1, num2, 3, 4];
+num1++;
 console.log(`array 서랍의 첫번째 array[0] : ${array[0]}`);
+console.log(`array 서랍의 첫번째 array[1] : ${array[1]}`);
+
+/*
+옛날 노드는 에러로 나와요
+최신 노드는 undefinded 나오네요
+*/
+console.log(`array 서랍의 첫번째 array[99] : ${array[99]}`);
