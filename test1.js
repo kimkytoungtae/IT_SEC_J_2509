@@ -38,3 +38,6 @@ let num2 = 2;
 console.log(`num2: ${num2} `);
 let result = num1/num2;
 console.log(`result: ${result} `);
+
+let array = [num1, num2, 3, 4];
+console.log(`array 서랍의 첫번째 array[0] : ${array[0]}`);
