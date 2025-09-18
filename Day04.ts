@@ -23,7 +23,7 @@ let array1:number[]=[1, 2, 3];
 array1[0] =5;
 array1=[5]; // 서랍 자체를 교체
 console.log(`array1: ${array1}`);
-
+console.log(' array1[0]: ${array1[0]}');
 
 let jsObject={a:1 , b:2};
 console.log(`jsObject: `,jsObject);
