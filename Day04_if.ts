@@ -15,9 +15,9 @@ if (user_input != door_password) {
 }
 
 
- //if 문을 쉬운 형태로
- if(false){
-    console.log("조건이 ture 일때만 여기가 실행")
- }else{
+//if 문을 쉬운 형태로
+if (true) {
+    console.log("조건이 true 일때만 여기가 실행")
+} else {
     console.log("조건이 false 일때 실행. 저는 옵션이에요")
- }
+}
