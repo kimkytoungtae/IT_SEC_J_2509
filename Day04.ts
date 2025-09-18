@@ -31,7 +31,21 @@ console.log(`jsObject a:`, jsObject.a);
 console.log(`jsObject b:`, jsObject.b);
 
 
+
 //지금 이거 해독하지 마세요
 let 내쇼핑몰=[{"제품" : "멍멍이", "가격" : "500"} , 
     { "제품": "야옹이", "가격": "700" }
 ]
+
+
+let js1:any; 
+js1=1;
+js1="dfsdfs"
+js1={}
+js1=[]
+/*
+any 라는 타입은, javascript, python같이
+아무거나 다 담을수 있어요.
+쇼핑몰 상품 올리기 하기전 이미지 미리보기같은 어려운 기능,
+혹은 gpt한테 어려운 기능을 대리 맡길때 쓰는 타입이다 라고 생각 하세요
+*/
