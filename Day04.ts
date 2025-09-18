@@ -21,3 +21,4 @@ let array1:number[]=[1, 2, 3];
 
 // 서랍번호 0번의 값을 5로 바꿔주세요
 array1[0] =5
+console.log(array1);
