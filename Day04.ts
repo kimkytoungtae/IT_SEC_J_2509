@@ -20,4 +20,4 @@ let sum:number = 1+"2";
 let array1:number[]=[1, 2, 3];
 
 // 서랍번호 0번의 값을 5로 바꿔주세요
-let array2:number[]=[5, 6, 7];
+array1[0] =5
