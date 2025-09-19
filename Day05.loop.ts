@@ -25,8 +25,12 @@ idx < 3
 
 let array1=["고양이","멧돼지","뱀"];
 for (let item of array1) {
-    console.log(`item: ${item}`);    
+    //console.log(`item: ${item}`);    
 }
 array1.forEach((item) => {
-    console.log(`item: ${item}`);
+    //console.log(`item: ${item}`);
 });
+
+for (let idx = 2; idx <= 9; idx++) { // idx= idx+1
+    console.log(`idx: ${idx}`);
+}
