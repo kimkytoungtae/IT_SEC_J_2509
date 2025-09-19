@@ -31,8 +31,15 @@ array1.forEach((item) => {
     //console.log(`item: ${item}`);
 });
 
+// idx * idy 만큼 실행하죠
 for (let idx = 2; idx <= 9; idx++) { // idx= idx+1
-    for (let idx = 2; idx <= 9; idx++) { // idx= idx+1
-    console.log(`idx: ${idx}`);
+    for (let idy = 1; idy <= 9; idy++) { // idx= idx+1
+        console.log(`idx: ${idx} * idy: ${idy} = ${idx * idy}`);
     }
 }
+/*
+{ } 이걸 영어로 bracket, 한국말론 바구니, 어려운 이론으로는 scope
+각 scope(영역, 바구니, 방...) 마다 메모리 영역이 달라요
+그래서 scope 가 다르면, 소스코드에 동일한 변수 이름이 보여도, 아예
+다른놈으로 취급되요
+ */
