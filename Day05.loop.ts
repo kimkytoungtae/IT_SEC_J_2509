@@ -60,7 +60,7 @@ loop
 */
 /** sum() 함수를 호출하세요. 그러면 흑백 화면에 1+2을 보여줄 거에요 */
 function sum() {
-    console.log("1+2=3");
+   // console.log("1+2=3");
     }
 
 /*
