@@ -82,3 +82,7 @@ function subtract() {
     }
 
 subtract();
+
+function sum2(a:number,  b:number){
+    return a+b;
+}
