@@ -104,7 +104,9 @@
 
     <script>
       function test(event) {
-        alert("작동함");
+        if(event.keyCode==13){
+          alert("작동함");
+        }
       }
       (async () => {
         let dummy = { 속성1: "", 속성2: 0 };
