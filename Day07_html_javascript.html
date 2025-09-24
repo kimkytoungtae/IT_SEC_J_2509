@@ -138,24 +138,30 @@
           console.log(`operator_text: `, operator_text);
           if(operator_text=="+"){
 
+             result1.innerText = input1_value + input2_value;
           }else if(operator_text=="-"){
+            result1.innerText = input1_value - input2_value;
 
           }else if(operator_text=="*"){
+             result1.innerText = input1_value * input2_value;
             
           }
           else if(operator_text=="/"){
+          
+          result1.innerText = input1_value / input2_value;
+          }
+          else if(operator_text=="%"){
 
+             result1.innerText = input1_value % input2_value;
+          }
+      
           }
 
         
 
-          
-          result1.innerText = input1_value + input2_value;
-          result1.innerText = input1_value - input2_value;
-          result1.innerText = input1_value * input2_value;
-          result1.innerText = input1_value / input2_value;
+
         }
-      }
+      
 
       (async () => {
         let dummy = { 속성1: "", 속성2: 0 };
