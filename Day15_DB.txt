@@ -29,6 +29,11 @@ updated_dt timestamptz now()
 테이블 이름 : t_board
 
 
+FK 가 있는 테이블이 무조건 자식 테이블
+
+부모 1 : 자식 N
+
+
 
 fastapi
 
