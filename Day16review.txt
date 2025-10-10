@@ -13,3 +13,12 @@
 
     FastAPI -
     서버
+    
+SELECT
+*
+FROM t_user
+;
+
+INSERT INTO t_user(username, password)
+VALUES('홍길동','1234')
+;
