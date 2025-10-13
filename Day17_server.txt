@@ -59,4 +59,4 @@ pydantic # fastapi req 유효성 검사
 scikit-learn
 -------------------------
 
-uv pip install -r requirments.txt
+uv pip install -r requirements.txt
