@@ -68,6 +68,8 @@ pip install uv 해주세요
 그다음 uv pip install -r requirements.txt  실행해 주세요
 ##
 
+uv -run python app.py
+
 ------app.py-------
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, HTTPException
