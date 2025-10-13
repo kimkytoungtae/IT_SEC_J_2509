@@ -1,0 +1,15 @@
+서버 종류가 많아요
+
+1. 스프링
+2. Node.js
+3. FastAPI (파이썬)
+4. .NETCore(c#)
+5. PHP 솔까 다 서버로서는 합격이에요
+
+효율성 순위 - 코드량이 적고, 딸깍으로 되는 수준
+
+1. Node JS(typescript)
+2. FastAPI
+3.  .NETCore (웹, 게임)
+4. 스프링
+5. PHP
