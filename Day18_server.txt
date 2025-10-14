@@ -3,3 +3,11 @@
 1 . query string (METHOD GET)
 2. body {(METHOD POST)
 }
+
+
+http://localhost:8000/?mydata=12345
+
+
+https://codepen.io/jules064/pen/bNErYKX
+- gemini 3 에서 웹으로 만든 뱀파이어 서바이버
+   광고용
