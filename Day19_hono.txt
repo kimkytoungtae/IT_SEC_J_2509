@@ -1,6 +1,8 @@
 npm create hono@latest 내프로젝트 이름
 - Scaffolding. 프로젝트 생성 자동
 
+index.ts
+요게 핵심. 요기서 코딩하고 논다고 생각하시면 되요
 
 
 {
