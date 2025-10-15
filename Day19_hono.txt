@@ -23,13 +23,13 @@ index.ts
 }
 
 DB 연결이 서버에서 제일 어려워요
-* npm i -g typeorm-model-generator
+* npm i -g typeorm-model-generator 설치
 * .env.development 파일 만들기
 
-DB_HOST= 뭐뭐
+DB_HOST= 뭐뭐 (versel 들어가서 본인꺼 입력)
 DB_PORT=5432
 DB_USERNAME=neondb_owner
-DB_PASSWORD= 뭐뭐
+DB_PASSWORD= 뭐뭐 (versel 들어가서 본인꺼 입력)
 DB_NAME=neondb
 
-npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod
+npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod  설치
