@@ -33,3 +33,7 @@ DB_PASSWORD= 뭐뭐 (versel 들어가서 본인꺼 입력)
 DB_NAME=neondb
 
 npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod  설치
+
+* model generator 돌리기
+typeorm-model-generator -h 뭐뭐 -d neondb -u neondb_owner -x 뭐뭐 -e postgres -o ./src --ssl
+typeorm-model-generator -h ep-rough-truth-afz1x9t1-pooler.c-2.us-west-2.aws.neon.tech -d neondb -u neondb_owner -x npg_1CAOVqs7PeJW -e postgres -o ./src --ssl
