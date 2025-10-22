@@ -13,4 +13,7 @@ npm create hono@latest itsec_hono_2509
 npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod
 
 typeorm-model-generator -h 뭐뭐 -d neondb -u neondb_owner -x 뭐뭐 -e postgres -o ./src --ssl
+
+h = host  / x = password env 파일에서 찾아보기
+
 - model generator 돌리기
