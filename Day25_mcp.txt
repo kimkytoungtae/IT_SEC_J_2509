@@ -1,1 +1,6 @@
 npm install -g @google/gemini-cli@latest
+
+1. 기획(피그마 포함)
+2. 디자인
+3. 백앤드
+4. 프론트
