@@ -9,3 +9,5 @@ npm create hono@latest itsec_hono_2509
 2. 디자인
 3. 백앤드
 4. 프론트
+
+npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod
