@@ -1,0 +1,11 @@
+리액트 네이티브
+
+앱개발 3대장-
+React native expo - 제일 편함
+flutter
+MAUI
+
+nodejs 하나로, 타입스크립트 하나로
+서버,웹,앱 다해요
+
+리액트 
